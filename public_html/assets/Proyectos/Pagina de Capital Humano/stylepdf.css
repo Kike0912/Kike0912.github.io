@@ -1,0 +1,140 @@
+/* styles.css */
+.upload-form-container {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.upload-form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.upload-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.upload-form input[type="file"],
+.upload-form .drag-area {
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.upload-form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.upload-form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.drag-area {
+    border: 2px dashed #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.drag-area.dragging {
+    border-color: #4CAF50;
+}
+
+.drag-area p {
+    margin: 0;
+}
+
+.drag-area .file-preview {
+    margin-top: 10px;
+    width: 100%;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+}
+.listado-usuarios {
+    margin-top: 20px; /* Ajusta el margen superior */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.listado-usuarios form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+.listado-usuarios table {
+    width: 100%;
+    max-width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.listado-usuarios th, .listado-usuarios td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.listado-usuarios th {
+    background-color: #fd7e14;;
+    color: white;
+}
+
+.listado-usuarios tr:hover {
+    background-color: #f1f1f1;
+}
+
+.listado-usuarios button {
+    padding: 10px 20px;
+    background-color: #fd7e14;;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.listado-usuarios button:hover {
+    background-color: #4a21ff;
+}
+
+.table-wrapper {
+    overflow-x: auto;
+    width: 100%;
+    max-width: 1000px; /* Ajusta esto según tu diseño */
+}

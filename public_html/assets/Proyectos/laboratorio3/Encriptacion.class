@@ -1,0 +1,15 @@
+<?php
+// Encriptacion.class.php
+class Encriptacion {
+
+    // Método para encriptar la contraseña
+    public static function encriptarContrasena($contrasena) {
+        return password_hash($contrasena, PASSWORD_DEFAULT);
+    }
+
+    // Método para verificar la contraseña
+    public static function verificarContrasena($contrasena, $contrasenaHash) {
+        return password_verify($contrasena, $contrasenaHash);
+    }
+}
+?>

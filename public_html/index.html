@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Devcrud">
+    <title>Portafolio Enrique Batista </title>
+    <!-- font icons -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+    <!-- Bootstrap + main styles -->
+	<link rel="stylesheet" href="assets/css/Enrique.css">
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+    <a href="components.html" class="btn btn-primary btn-component" data-spy="affix" data-offset-top="600"><i class="ti-shift-left-alt"></i> Components</a>
+    <header class="header">
+        <div class="container">
+            <ul class="social-icons pt-3">
+                <li class="social-item"><a class="social-link text-light" href="#"><i class="ti-facebook" aria-hidden="true"></i></a></li>
+                <li class="social-item"><a class="social-link text-light" href="#"><i class="ti-instagram" aria-hidden="true"></i></a></li>
+                <li class="social-item"><a class="social-link text-light" href="#"><i class="ti-github" aria-hidden="true"></i></a></li>
+            </ul>  
+            <div class="header-content">
+                <h4 class="header-subtitle" >!Bienvenido!, Soy</h4>
+                <h1 class="header-title">Enrique Batista</h1>
+                <h6 class="header-mono" >Junior fullstack | Frontend, Backend & Bases de Datos.</h6>
+                <button class="btn btn-primary btn-rounded" onclick="descargarPDF()">
+                    <i class="ti-printer pr-2"></i>Descargar Currículum Vitae
+                </button>
+            </div>
+        </div>
+    </header>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white" data-spy="affix" data-offset-top="510">
+        <div class="container">
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse mt-sm-20 navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">Sobre mi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#resume" class="nav-link">Perfil Tecnico </a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav brand">
+                    <img src="assets/imgs/avatare.jpg" alt="" class="brand-img">
+                    <li class="brand-txt">
+                        <h5 class="brand-title">Enrique Batista</h5>
+                        <div class="brand-subtitle">Junior fullstack | Frontend, Backend & Bases de Datos</div>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="#portfolio" class="nav-link">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#blog" class="nav-link">Blog</a>
+                    </li>
+                    <li class="nav-item last-item">
+                        <a href="#contact" class="nav-link">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div id="about" class="row about-section">
+            <div class="col-lg-4 about-card">
+                <h3 class="font-weight-light">Quien Soy?</h3>
+                <span class="line mb-5"></span>
+                <h5 class="mb-3">Un Ingeniero en Software especializado en Frontend, Backend y Bases de Datos.</h5>
+                <p class="mt-20"> Joven Apasionado por el desarrollo de soluciones tecnológicas. Me especializo en diseño y programación web, creando aplicaciones funcionales y atractivas que resuelven problemas reales y mejoran la experiencia de los usuarios.</p>
+                <button class="btn btn-outline-danger" onclick="descargarPDF()"><i class="icon-down-circled2 "></i>Descargar CV</button>
+            </div>
+            <div class="col-lg-4 about-card">
+                <h3 class="font-weight-light">Informacion Personal</h3>
+                <span class="line mb-5"></span>
+                <ul class="mt40 info list-unstyled">
+                    <li><span>Fecha de Nacimiento</span> : 08/08/2004</li>
+                    <li><span>G-mail</span> : Enriquebatista003@gmail.com</li>
+                    <li><span>Telefono</span> : + (507) 6318-7573</li>
+                    <li><span>Instagram</span> : Kiko_0809 </li>
+                    <li><span>Direccion</span> :  Panama, Pacora, Los alamos, Casa 197.</li>
+                </ul>
+                <ul class="social-icons pt-3">
+                    <li class="social-item"><a class="social-link" href="#"><i class="ti-facebook" aria-hidden="true"></i></a></li>
+                    <li class="social-item"><a class="social-link" href="#"><i class="ti-twitter" aria-hidden="true"></i></a></li>
+                    <li class="social-item"><a class="social-link" href="#"><i class="ti-google" aria-hidden="true"></i></a></li>
+                    <li class="social-item"><a class="social-link" href="#"><i class="ti-instagram" aria-hidden="true"></i></a></li>
+                    <li class="social-item"><a class="social-link" href="#"><i class="ti-github" aria-hidden="true"></i></a></li>
+                </ul>  
+            </div>
+            <div class="col-lg-4 about-card">
+                <h3 class="font-weight-light">Experiencia en </h3>
+                <span class="line mb-5"></span>
+                <div class="row">
+                    <div class="col-1 text-danger pt-1"><i class="ti-widget icon-lg"></i></div>
+                    <div class="col-10 ml-auto mr-3">
+                        <h6>Desarrollo de Interfaces (UX/UI)</h6>
+                        <p class="subtitle">Diseño de experiencias intuitivas y visualmente atractivas para usuarios finales.</p>
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-1 text-danger pt-1"><i class="ti-paint-bucket icon-lg"></i></div>
+                    <div class="col-10 ml-auto mr-3">
+                        <h6>Desarrollo Web</h6>
+                        <p class="subtitle">Creación de aplicaciones completas con tecnologías modernas de Frontend y Backend..</p>
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-1 text-danger pt-1"><i class="ti-stats-up icon-lg"></i></div>
+                    <div class="col-10 ml-auto mr-3">
+                        <h6>Bases de Datos</h6>
+                        <p class="subtitle">Gestión, diseño y optimización de estructuras para un manejo eficiente de la información.</p>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Resume Section-->
+    <section class="section" id="resume">
+        <div class="container">
+            <h2 class="mb-5"><span class="text-danger">Perfil</span> Tecnico</h2>
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card">
+                       <div class="card-header">
+                            <div class="mt-2">
+                                <h4>Experiencia</h4>
+                                <span class="line"></span>  
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h6 class="title text-danger">2022 - Presente</h6>
+                            <P>Diseño de Interfaces (UX/UI)</P>
+                            <P class="subtitle">He participado en proyectos académicos y personales diseñando interfaces gráficas intuitivas y funcionales, aplicando principios de experiencia de usuario (UX) y herramientas como Figma y Design Thinking para optimizar la interacción con aplicaciones.</P>
+                            <hr>
+                            <h6 class="title text-danger">2022 - Presente</h6>
+                            <P>Desarrollo Web</P>
+                            <P class="subtitle">Desarrollo de aplicaciones web utilizando lenguajes como HTML, CSS, PHP y JavaScript. Creación de sistemas funcionales como gestión hospitalaria, bibliotecas y comercio electrónico, con bases de datos administradas en MySQL.</P>
+                            <hr>
+                            <h6 class="title text-danger">2023 - Presente</h6>
+                            <P>Base de Datos</P>
+                            <P class="subtitle">Diseño, modelado y optimización de bases de datos utilizando MySQL Workbench y Oracle. Experiencia en consultas SQL optimizadas y administración de datos para sistemas dinámicos.</P>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card">
+                       <div class="card-header">
+                            <div class="mt-2">
+                                <h4>Educación</h4>
+                                <span class="line"></span>  
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h6 class="title text-danger">2022 - Presente</h6>
+                            <P>Licenciatura en Ingeniería en Software</P>
+                            <P class="subtitle">Universidad Tecnológica de Panamá
+                                Cursando el 3er año de la carrera, con enfoque en desarrollo de software, bases de datos, redes de computadoras y diseño de interfaces gráficas.</P>
+                            <hr>
+                            <h6 class="title text-danger">2008 - 2021</h6>
+                            <P>Bachiller en Ciencias con Énfasis en Informática/Programación</P>
+                            <P class="subtitle">Saint John’s Academy
+                                Formación en programación básica, desarrollo lógico y fundamentos de tecnologías informáticas.</P>
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                       <div class="card-header">
+                            <div class="pull-left">
+                                <h4 class="mt-2">Habilidades</h4>
+                                <span class="line"></span>  
+                            </div>
+                        </div>
+                        <div class="card-body pb-2">
+                            <h6>C++</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                           <h6>hTL5 &amp; CSS3</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 73%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>JavaScript</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 62%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>PHP</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 80%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>SQL</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 79%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>Python</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 69%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>GIT</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>Angular</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 70%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>Excel, Power BI, Análisis Estadístico</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="card">
+                       <div class="card-header">
+                            <div class="pull-left">
+                                <h4 class="mt-2">Idiomas</h4>
+                                <span class="line"></span>  
+                            </div>
+                        </div>
+                        <div class="card-body pb-2">
+                           <h6>Ingles</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 65%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>Español</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section bg-dark text-center">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-6 col-lg-3">
+                    <div class="row ">
+                        <div class="col-5 text-right text-light border-right py-3">
+                            <div class="m-auto"><i class="ti-alarm-clock icon-xl"></i></div>
+                        </div>
+                        <div class="col-7 text-left py-3">
+                            <h1 class="text-danger font-weight-bold font40">3190</h1>
+                            <p class="text-light mb-1">Horas Desarrollando</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="row">
+                        <div class="col-5 text-right text-light border-right py-3">
+                            <div class="m-auto"><i class="ti-layers-alt icon-xl"></i></div>
+                        </div>
+                        <div class="col-7 text-left py-3">
+                            <h1 class="text-danger font-weight-bold font40">10</h1>
+                            <p class="text-light mb-1">Proyectos terminados</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="row">
+                        <div class="col-5 text-right text-light border-right py-3">
+                            <div class="m-auto"><i class="ti-face-smile icon-xl"></i></div>
+                        </div>
+                        <div class="col-7 text-left py-3">
+                            <h1 class="text-danger font-weight-bold font40">8</h1>
+                            <p class="text-light mb-1">Lenguajes dominados </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="row">
+                        <div class="col-5 text-right text-light border-right py-3">
+                            <div class="m-auto"><i class="ti-heart-broken icon-xl"></i></div>
+                        </div>
+                        <div class="col-7 text-left py-3">
+                            <h1 class="text-danger font-weight-bold font40">2000</h1>
+                            <p class="text-light mb-1">Tasas de Cafe</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="service">
+        <div class="container">
+            <h2 class="mb-5 pb-4"><span class="text-danger">Mis</span> Servicios</h2>
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <div class="card mb-5">
+                       <div class="card-header has-icon">
+                            <i class="ti-vector text-danger" aria-hidden="true"></i>
+                        </div>
+                        <div class="card-body px-4 py-3">
+                            <h5 class="mb-3 card-title text-dark">Desarrollo de Software a Medida</h5>
+                            <P class="subtitle">Ofrezco soluciones de software adaptadas a las necesidades específicas de las empresas, desde el análisis de requerimientos hasta la implementación. Mis proyectos incluyen sistemas de gestión, plataformas web y aplicaciones educativas, diseñados para optimizar procesos y mejorar la productividad.</P>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card mb-5">
+                       <div class="card-header has-icon">
+                            <i class="ti-write text-danger" aria-hidden="true"></i>
+                        </div>
+                        <div class="card-body px-4 py-3">
+                            <h5 class="mb-3 card-title text-dark">Desarrollo Front-end</h5>
+                            <P class="subtitle">Diseño interfaces atractivas y responsivas utilizando tecnologías como HTML, CSS, JavaScript y frameworks modernos. Me enfoco en ofrecer experiencias de usuario (UX/UI) optimizadas, asegurando navegaciones intuitivas y estéticas.                                                                                                   </P>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card mb-5">
+                        <div class="card-header has-icon">
+                            <i class="ti-server text-danger" aria-hidden="true"></i>
+                        </div>                        
+                        <div class="card-body px-4 py-3">
+                            <h5 class="mb-3 card-title text-dark">Diseño y Gestión de Bases de Datos</h5>
+                            <P class="subtitle">Experto en modelado, normalización y optimización de bases de datos para garantizar un rendimiento eficiente. Trabajo con herramientas como MySQL Workbench y phpMyAdmin, asegurando que los datos de tu empresa estén organizados y sean fácilmente accesibles.</P>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card mb-5">
+                        <div class="card-header has-icon">
+                            <i class="ti-desktop text-primary" aria-hidden="true"></i>
+                        </div>
+                        <div class="card-body px-4 py-3">
+                            <h5 class="mb-3 card-title text-dark">Implementación de Redes y Virtualización</h5>
+                            <P class="subtitle">Configuro entornos virtuales y redes de computadoras que potencian la conectividad y seguridad de las empresas. Experiencia en sistemas Linux y Windows, con énfasis en la gestión de servidores y virtualización.</P>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card mb-5">
+                       <div class="card-header has-icon">
+                            <i class="ti-bar-chart text-danger" aria-hidden="true"></i>
+                        </div>
+                        <div class="card-body px-4 py-3">
+                            <h5 class="mb-3 card-title text-dark">Optimización de Código y Calidad de Software</h5>
+                            <P class="subtitle">Identifico áreas de mejora en código existente, implementando soluciones que aumenten el rendimiento y la escalabilidad. Con herramientas como Codacy, lidero la calidad de software para garantizar entregables sólidos y bien estructurados.</P>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card mb-5">
+                       <div class="card-header has-icon">
+                            <i class="ti-settings text-danger" aria-hidden="true"></i>
+                        </div>
+                        <div class="card-body px-4 py-3">
+                            <h5 class="mb-3 card-title text-dark">Desarrollo Back-end</h5>
+                            <P class="subtitle">Construyo la lógica de negocio y estructuras robustas para sistemas y aplicaciones web. Trabajo con lenguajes y herramientas como PHP, Python, Java y bases de datos relacionales, asegurando integraciones confiables y seguras entre el Front-End y el servidor.</P>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="section bg-custom-gray" id="portfolio">
+        <div class="container">
+            <h1 class="mb-5"><span class="text-danger">Mis</span> Proyectos</h1>
+            <div class="portfolio">
+                <div class="filters">
+                    <a href="#" data-filter=".new" class="active">
+                        1
+                    </a>
+                    <a href="#" data-filter=".advertising">
+                        2
+                    </a>
+                    <a href="#" data-filter=".branding">
+                        3
+                    </a>
+                    <a href="#" data-filter=".web">
+                        4
+                    </a>
+                    
+                </div>
+                <div class="portfolio-container"> 
+                    <div class="col-md-6 col-lg-4 web new">
+                        <a href="assets/Proyectos/Automotriz/AutomotrizPro/home.html" class="portfolio-item" style="text-decoration: none; color: inherit;">
+                            <div class="portfolio-item">
+                                <img src="assets/imgs/Automotriz.png" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free bootstrap 4 templates">
+                                <div class="content-holder">
+                                    <div class="text-holder">
+                                        <h6 class="title">Administracion de Automotriz {proyecto en proceso aun no terminado}</h6>
+                                        <p class="subtitle">| html5 | css3 | JavaScript | SQL</p>
+                                    </div>
+                                </div> 
+                            </div>
+                        </a>
+                    </div>
+                    
+                    
+                    <div class="col-md-6 col-lg-4 web new">
+                        <a href="#home" class="portfolio-item" style="text-decoration: none; color: inherit;">
+                            <div class="portfolio-item">
+                                <img src="assets/imgs/Portafolio.png" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free bootstrap 4 templates">
+                                <div class="content-holder">
+                                    <div class="text-holder">
+                                        <h6 class="title">Portafolio Personal</h6>
+                                        <p class="subtitle">| html5 | css3 | JavaScript | Angular |</p>
+                                    </div>
+                                </div> 
+                            </div>
+                        </a>
+                    </div>
+                    
+
+                    <div class="col-md-6 col-lg-4 advertising new">
+                        <a href="assets/Proyectos/Pagina de Capital Humano/" class="portfolio-item" style="text-decoration: none; color: inherit;">
+                            <div class="portfolio-item">
+                                <img src="assets/imgs/CapHuma.PNG" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free bootstrap 4 templates">                         
+                                <div class="content-holder">
+                                    <div class="text-holder">
+                                        <h6 class="title">Proyecto de Capital Humano</h6>
+                                        <p class="subtitle">| html5 | css3 | JavaScript | PHP | SQL | Composer | React |</p>
+                                    </div>
+                                </div>    
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-4 web">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/web-4.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/web-4.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">WEB</h6>
+                                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                                </div>
+                            </div>
+                        </div>                                                     
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 advertising"> 
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/advertising-1.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                               
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/advertising-1.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">ADVERSITING</h6>
+                                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                                </div>
+                            </div>
+                        </div>                                                       
+                    </div> 
+                    <div class="col-md-6 col-lg-4 web new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/web-3.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">  
+                           <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/web-3.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">WB</h6>
+                                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                                </div>
+                            </div>
+                        </div>                                                     
+                    </div>
+                    <div class="col-md-6 col-lg-4 advertising new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/advertising-3.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">       
+                           <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/advertising-3.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">ADVERNG</h6>
+                                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                                </div>
+                            </div>
+                        </div>                                                       
+                    </div> 
+                
+                    <div class="col-md-6 col-lg-4 advertising new">
+                        <a href="assets/Proyectos/laboratorio3/login.php" class="portfolio-item" style="text-decoration: none; color: inherit;">
+                            <div class="portfolio-item">
+                                <img src="assets/imgs/RegistroEventos.png" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free bootstrap 4 templates">            
+                                <div class="content-holder">
+                                    <div class="text-holder">
+                                        <h6 class="title">Administración de eventos, servicios y usuarios</h6>
+                                        <p class="subtitle">| html5 | css3 | JavaScript | PHP | SQL | Composer | Bootstrap |</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+
+                    <div class="col-md-6 col-lg-4 branding new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/branding-1.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                        
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/branding-1.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">BRANDING</h6>
+                                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                                </div>
+                            </div> 
+                        </div>
+                    </div> 
+                    <div class="col-md-6 col-lg-4 branding">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/branding-2.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">  
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/branding-2.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">BRANDING</h6>
+                                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                                </div>
+                            </div>
+                        </div>                                                     
+                    </div> 
+                    <div class="col-md-6 col-lg-4 branding new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/branding-3.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">   
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/branding-3.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">BRANDING</h6>
+                                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                                </div>
+                            </div>
+                        </div>                                                    
+                    </div> 
+                    <div class="col-md-6 col-lg-4 branding">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/branding-4.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                      
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/branding-4.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">BRANDING</h6>
+                                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                                </div>
+                            </div>
+                        </div>                                                      
+                    </div> 
+                    <div class="col-md-6 col-lg-4 branding">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/branding-5.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">          
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/branding-5.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">BRANDING</h6>
+                                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                                </div>
+                            </div>
+                        </div>                                                   
+                    </div>
+                </div> 
+            </div>  
+        </div>            
+    </section>
+    <!-- End of portfolio section -->
+
+    <section class="section" id="blog">
+        <div class="container">
+            <h2 class="mb-5">Investigaciones<span class="text-danger"> Recientes</span></h2>
+            <div class="row">
+                <div class="blog-card">
+                    <div class="img-holder">
+                        <img src="assets/imgs/RutasHi.PNG" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                    </div>
+                    <div class="content-holder">
+                        <h6 class="title"> Rutas Históricas: Impulsa el Turismo Nocturno en el Casco Antiguo de Panamá</h6>
+
+                        <p class="post-details">
+                            <a href="#">By: Enrique Batista</a>
+                            
+                        </p>
+                    
+                        <p>Este proyecto se centra en el diseño de una aplicación móvil innovadora que promueve la vida nocturna del Casco Antiguo de Panamá, destacando bares, restaurantes, eventos y lugares históricos. La aplicación se ha creado con el objetivo de proporcionar información actualizada y fácilmente accesible para los turistas, mejorando su experiencia y ayudándoles a explorar la vibrante cultura y entretenimiento de esta icónica zona. El diseño de la aplicación se adapta a las necesidades de los usuarios, optimizando la planificación de sus visitas y promoviendo un turismo más interactivo y personalizado.</p>
+
+                        <a href="assets/Investigaciones/Digruta.pdf" class="read-more">Leer Mas <i class="ti-angle-double-right"></i></a>
+                    </div>
+                </div><!-- end of blog wrapper -->
+
+                <!-- blog-card -->
+                <div class="blog-card">
+                    <div class="img-holder">
+                        <img src="assets/imgs/Digited.PNG" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                    </div>
+                    <div class="content-holder">
+                        <h6 class="title">Plataforma Integral de Capacitación y Recursos Educativos - DIGITED</h6>
+
+                        <p class="post-details">
+                            <a href="#">By: Enrique Batista</a>
+                           
+                        </p>
+                        
+                        <p>El Departamento de Innovación y Desarrollo Tecnológico (DIGITED) de la Universidad Tecnológica de Panamá ha desarrollado una plataforma educativa avanzada diseñada para ofrecer a docentes y estudiantes acceso a una amplia gama de cursos y materiales educativos. Esta plataforma no solo funciona como un catálogo, sino que se adapta continuamente a las necesidades educativas, proporcionando una herramienta intuitiva y accesible para fortalecer la experiencia de aprendizaje en la universidad. Con un enfoque innovador, busca optimizar la enseñanza y el aprendizaje, promoviendo una educación más interactiva y personalizada.</p>
+
+                        <a href="assets/Investigaciones/Digitedpro.pdf" class="read-more">Leer Mas <i class="ti-angle-double-right"></i></a>
+                    </div>
+                </div><!-- end of blog wrapper -->
+                <!-- blog-card -->
+                <div class="blog-card">
+                    <div class="img-holder">
+                        <img src="assets/imgs/Bdlibros.PNG" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                    </div>
+                    <div class="content-holder">
+                        <h6 class="title">Levantamiento de Base de Datos para Librería - Gestión Completa de Inventarios y Autores</h6>
+
+                        <p class="post-details">
+                            <a href="#">By: Enrique Batista</a>
+                           
+                        </p>
+                        
+                        <p>Este proyecto se enfoca en la creación de una base de datos robusta para una cadena de librerías, cubriendo desde la gestión de autores y sucursales hasta el manejo de inventarios de libros. Con procedimientos automatizados para agregar autores y sucursales, el sistema garantiza la integridad y unicidad de los datos. Además, incluye una funcionalidad avanzada para la búsqueda y aplicación de descuentos en facturas, optimizando el proceso de ventas y la gestión del inventario. La base de datos se convierte en una herramienta clave para gestionar de manera eficiente todos los aspectos operativos de la librería.</p>
+
+                        <a href="assets/Investigaciones/Bdlibreria.pdf" class="read-more">Leer Mas  <i class="ti-angle-double-right"></i></a>
+                    </div>
+                </div>
+                <!-- end of blog wrapper -->
+                 <!-- blog-card -->
+                <div class="blog-card">
+                    <div class="img-holder">
+                        <img src="assets/imgs/Bdsegura.PNG" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                    </div>
+                    <div class="content-holder">
+                        <h6 class="title">Aseguramiento de Bases de Datos - Estrategias de Seguridad y Protección</h6>
+
+                        <p class="post-details">
+                            <a href="#">By: Enrique Batista</a>
+                           
+                        </p>
+                        
+                        <p>El Grupo 133 ha llevado a cabo una investigación exhaustiva sobre el aseguramiento de bases de datos, abordando temas críticos como la autenticación de usuarios, gestión de privilegios y políticas de respaldo. Este proyecto se centra en aplicar las mejores prácticas para garantizar la seguridad y el acceso controlado a los datos sensibles en sistemas de información. A través de un análisis profundo y detallado, el equipo propone estrategias innovadoras para proteger las bases de datos contra accesos no autorizados, asegurando la integridad y disponibilidad de la información vital para cualquier organización.s</p>
+
+                        <a href="assets/Investigaciones/BDsegura.pdf" class="read-more">Leer Mas <i class="ti-angle-double-right"></i></a>
+                    </div>
+                </div>
+                <!-- end of blog wrapper -->
+                 <!-- blog-card -->
+                <div class="blog-card">
+                    <div class="img-holder">
+                        <img src="assets/imgs/acciones.PNG" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                    </div>
+                    <div class="content-holder">
+                        <h6 class="title">Análisis Estadístico de Precios de Acciones de TSMC - Perspectivas del Mercado Bursátil</h6>
+
+                        <p class="post-details">
+                            <a href="#">By: Enrique Batista</a>
+                           
+                        </p>
+                        
+                        <p>Este análisis exhaustivo examina el comportamiento histórico de las acciones de TSMC, comparando su desempeño con competidores y con el mercado global de semiconductores. Además de estudiar la evolución de precios y volumen de negociación, se identifican factores clave como reportes financieros y eventos económicos que impactan en el valor de las acciones. Mediante herramientas estadísticas avanzadas y análisis técnico, el informe proporciona una visión clara de la posición competitiva de TSMC, ofreciendo insights clave para inversionistas y analistas del mercado de valores.</p>
+
+                        <a href="assets/Investigaciones/Acciones.pdf" class="read-more">Leer Mas <i class="ti-angle-double-right"></i></a>
+                    </div>
+                </div>
+                <!-- end of blog wrapper -->
+                <!-- blog-card -->
+                <div class="blog-card">
+                    <div class="img-holder">
+                        <img src="assets/imgs/calore.PNG" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                    </div>
+                    <div class="content-holder">
+                        <h4 class="title"> Predicción de Demanda de Semiconductores - Proyección de Ventas de Intel</h4>
+
+                        <p class="post-details">
+                            <a href="#">By: Enrique Batista</a>
+                            
+                        </p>
+                        
+                        <p> Este estudio se enfoca en la predicción de ventas de semiconductores de Intel, utilizando un análisis exhaustivo de datos históricos y técnicas estadísticas avanzadas. A través de proyecciones detalladas, se prevé que las ventas de Intel alcanzarán los $97,500 millones para 2029. El informe proporciona una visión completa de las tendencias actuales y futuras en el mercado de semiconductores, ayudando a las empresas tecnológicas a tomar decisiones estratégicas basadas en datos precisos y confiables para optimizar su planificación y recursos.</p>
+
+                        <a href="assets/Investigaciones/Prediccion.pdf" class="read-more">Leer Mas <i class="ti-angle-double-right"></i></a>
+                    </div>
+                </div><!-- end of blog wrapper -->
+
+            </div>
+        </div>
+    </section>
+
+ 
+    <footer class="footer py-3">
+        <div class="container">
+            <p class="small mb-0 text-light">
+                &copy; <script>document.write(new Date().getFullYear())</script> Creado <i class="ti-heart text-danger"></i> Por  <a href="http://devcrud.com" target="_blank"><span class="text-danger" title="Bootstrap 4 Themes and Dashboards">Enrique Batista</span></a> 
+            </p>
+        </div>
+    </footer>
+
+	<!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+
+    <!-- bootstrap 3 affix -->
+    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- Isotope  -->
+    <script src="assets/vendors/isotope/isotope.pkgd.js"></script>
+    
+    <!-- Google mpas -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtme10pzgKSPeJVJrG1O3tjR6lk98o4w8&callback=initMap"></script>
+
+    <!-- js -->
+    <script src="assets/js/Enrique.js"></script>
+
+    <!-- Include PDF.js library -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script>
+
+
+    <script>
+        function descargarPDF() {
+            const link = document.createElement('a');
+            link.href = 'assets/CVEnrique.pdf'; // Cambia por la URL de tu archivo PDF
+            link.download = 'CVEnrique.pdf'; // Nombre del archivo descargado
+            link.click();
+        }
+    </script>
+
+</body>
+</html>
